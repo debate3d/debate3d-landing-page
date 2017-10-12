@@ -1,0 +1,70 @@
+block vars
+  - var pageTitle = ''
+  - var bodyClass = ''
+  - var description = ''
+  - var title = ''
+  - var site = ''
+  - var author = ''
+  - var image = ''
+  - var sitename = ''
+  - var themeColor = ''
+
+doctype html
+html(lang="pt")
+  head
+    //- General Meta tags
+    meta(charset="utf-8")
+    meta(
+      name="viewport",
+      content="width=device-width,initial-scale=1")
+    meta(
+      name="description",
+      content=description)
+    meta(
+      name="author",
+      content=author)
+
+    //- Meta Tags for Facebook
+    meta(
+      property="og:title",
+      content=title)
+    meta(
+      property="og:type",
+      content="website")
+    meta(
+      property="og:description",
+      content=description)
+    meta(
+      property="og:url",
+      content=site)
+    meta(
+      property="og:image",
+      content=image)
+    meta(
+      property="og:sitename",
+      content=sitename)
+
+    //- Meta Tags for Twitter
+    meta(
+      name="twitter:description",
+      content=description)
+    meta(
+      name="twitter:title",
+      content=title)
+    meta(
+      name="twitter:url",
+      content=site)
+
+    meta(name="theme-color", content="")
+
+    link(
+      rel="stylesheet",
+      href="./css/app.css")
+
+    title=pageTitle
+
+  body(class=bodyClass)
+
+    block content
+
+    script(src="./js/main.js")

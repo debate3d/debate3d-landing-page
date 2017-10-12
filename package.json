@@ -1,0 +1,39 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "clean": "rm -rf ./dist/"
+  },
+  "repository": "",
+  "author": "EmanuelG",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.25.0",
+    "babel-preset-env": "^1.6.0",
+    "browser-sync": "^2.18.5",
+    "css-mqpacker": "^6.0.1",
+    "eslint": "^3.12.2",
+    "eslint-config-standard": "^7.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-pug": "^3.2.0",
+    "gulp-sass": "^3.0.0",
+    "gulp-uglify": "^3.0.0",
+    "node-sass": "^4.1.1",
+    "postcss-pxtorem": "^4.0.1",
+    "run-sequence": "^2.1.0"
+  }
+}
