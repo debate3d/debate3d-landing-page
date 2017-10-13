@@ -1,16 +1,17 @@
 extends layouts/default.pug
 
 block vars
-  - var pageTitle = ''
+  - var pageTitle = 'Debate3D'
   - var bodyClass = ''
   - var description = ''
   - var title = ''
   - var site = ''
-  - var author = ''
+  - var author = 'emanuelgdesouza@gmail.com'
   - var image = ''
-  - var sitename = ''
-  - var themeColor = ''
+  - var sitename = 'Debate3D'
+  - var themeColor = '#3498db'
 
 block content
 
-  p Boilerplate Front End
+  include layouts/hero.pug
+  

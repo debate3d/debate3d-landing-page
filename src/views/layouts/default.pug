@@ -60,11 +60,16 @@ html(lang="pt")
     link(
       rel="stylesheet",
       href="./css/app.css")
+      
+    link(
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet")
 
     title=pageTitle
 
   body(class=bodyClass)
 
     block content
+
+    script(src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js")
 
     script(src="./js/main.js")

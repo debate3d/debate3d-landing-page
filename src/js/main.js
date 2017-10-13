@@ -1,5 +1,3 @@
-const welcome = () => {
-  console.log('Boilerplate Front End')
-}
-
-welcome()
+AOS.init({
+  duration: 2000
+})
