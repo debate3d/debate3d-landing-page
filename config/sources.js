@@ -6,5 +6,6 @@ module.exports = {
   SASS_SRC: './src/assets/sass/**/*.sass',
   IMG_SRC: './src/assets/img/**',
   PUG_SRC: './src/views/*.pug',
+  PUG_WATCH_SRC: './src/views/**/*.pug',
   DIST_SRC: path.resolve(__dirname, '../dist')
 }
