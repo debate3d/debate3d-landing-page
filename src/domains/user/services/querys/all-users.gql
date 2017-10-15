@@ -1,0 +1,11 @@
+query allUsers ($page: Int!) {
+  users {
+    count
+    records(page: $page) {
+      uid
+      name
+      avatar_id
+      ponts
+    }
+  }
+}

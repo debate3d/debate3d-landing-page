@@ -1,0 +1,84 @@
+query getSingleUser ($uid: String!) {
+  user(uid: $uid) {
+    name
+    uid
+    email
+    created
+    ponts
+    avatar_id
+    facebook
+    instagram
+    site
+    twitter
+    youtube
+    topics(page: 1) {
+      count
+      records {
+        uid
+        ponts
+        title
+        cards(page: 1) {
+          count
+        }
+        position {
+          positive
+          negative
+        }
+        votes_topic {
+          count
+          positive {
+            id
+          }
+          negative {
+            id
+          }
+        }
+        tags {
+          uid
+          label
+        }
+      }
+    }
+    cards(page: 1) {
+      count
+      records {
+        uid
+        topic {
+          uid
+          title
+        }
+        author {
+          name
+          uid
+          avatar_id
+        }
+        content
+        position
+        ponts
+        deck {
+          id
+          user {
+            uid
+            name
+          }
+        }
+        likes {
+          id
+          reaction
+          user {
+            uid
+            name
+          }
+        }
+        dislikes {
+          id
+          reaction
+          user {
+            uid
+            name
+          }
+        }
+      }
+    }
+  }
+}

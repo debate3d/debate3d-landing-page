@@ -1,0 +1,11 @@
+query allDebaters ($page: Int!) {
+  debaters {
+    count
+    records(page: $page) {
+      uid
+      name
+      avatar_id
+      ponts
+    }
+  }
+}

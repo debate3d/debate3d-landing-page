@@ -1,0 +1,88 @@
+query getSingleTopic ($uid: String!, $page: Int!) {
+  topic (uid: $uid) {
+    uid
+    title
+    content
+    position {
+      positive
+      negative
+    }
+    author {
+      name
+      uid
+      email
+      avatar_id
+      facebook
+      instagram
+      site
+      twitter
+      youtube
+    }
+    tags {
+      uid
+      label
+    }
+    votes_topic {
+      count
+      positive {
+        id
+        vote
+        user {
+          uid
+          name
+          avatar_id
+        }
+      }
+      negative {
+        id
+        vote
+        user {
+          uid
+          name
+          avatar_id
+        }
+      }
+    }
+    cards(page: $page) {
+      count
+      records {
+        uid
+        topic {
+          uid
+          title
+        }
+        author {
+          name
+          uid
+          avatar_id
+        }
+        content
+        position
+        ponts
+        deck {
+          id
+          user {
+            uid
+            name
+          }
+        }
+        likes {
+          id
+          reaction
+          user {
+            uid
+            name
+          }
+        }
+        dislikes {
+          id
+          reaction
+          user {
+            uid
+            name
+          }
+        }
+      }
+    }
+  }
+}
