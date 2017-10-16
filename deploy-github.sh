@@ -8,6 +8,8 @@ yarn run build
 
 # deploy project
 cd dist
+
+# deploy to github
 rm -rf .git/
 git init
 git remote add origin "https://github.com/emanuelgsouza/debate3d-landing-page.git"
