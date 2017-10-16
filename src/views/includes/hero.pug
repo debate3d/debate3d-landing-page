@@ -11,6 +11,13 @@ div.hero
     h2.subtitle.has-text-centered Seja um moderador por apenas
     
     p.title.has-text-centered R$ 29.90 / mês
+    
+    form(
+      action="https://pagseguro.uol.com.br/pre-approvals/request.html"
+      method="post")
+      input(type="hidden" name="code" value="A0D72E68A0A0817884F5FF9C1AD40093")
+      input(type="hidden" name="iot" value="button")
+      input(type="submit" class="button is-success is-medium" value="Assine já")
 
     span(
       class="icon is-large"

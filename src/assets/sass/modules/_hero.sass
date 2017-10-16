@@ -21,6 +21,7 @@
   &::after
     background: $dark
     opacity: 0.3
+    z-index: -1
 
   .header
     background-color: $dark-blue
@@ -34,6 +35,11 @@
     box-shadow: 0px 1px 5px 0px $black
     z-index: 4
 
+    .button
+      position: absolute
+      right: 10px
+      top: 10px
+
     @media (min-width: $tablet)
       @include flex-center
 
@@ -42,12 +48,13 @@
     margin: 0
     @include flex-center
 
-  .button
-    position: absolute
-    right: 10px
-    top: 10px
-
   .content
+
+    .button
+      display: block
+      margin: 0 auto
+      top: -10px
+      left: -10px
 
     @media (max-width: $tablet)
       font-size: .75em
