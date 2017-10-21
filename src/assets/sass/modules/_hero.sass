@@ -2,6 +2,7 @@
   position: relative
   min-height: 100vh
   @include flex-center
+  flex-direction: column
 
   &::before,
   &::after
@@ -15,7 +16,7 @@
 
   &::before
     z-index: -2
-    background: url('../img/bg-picture1.jpg') no-repeat
+    background: url('../img/bg-picture2.jpg') no-repeat
     background-size: cover
 
   &::after
@@ -39,34 +40,38 @@
       position: absolute
       right: 10px
       top: 10px
+      background-color: #ff7c24
+      border-color: #ff7c24
+
+    .image
+      max-width: 200px
+      margin: 0
+      @include flex-center
 
     @media (min-width: $tablet)
       @include flex-center
 
-  .image
-    max-width: 200px
-    margin: 0
-    @include flex-center
+  .container1
+    padding: 20px
 
-  .content
+    .image
+      max-width: 600px
 
-    .button
-      display: block
+    p
+      color: #fded00
+      text-align: right
+
+  .container2
+    position: absolute
+    bottom: 20px
+
+    h2.subtitle
+      color: $white
+      margin-bottom: 5px
+
+    .image
+      max-width: 60px
       margin: 0 auto
-      top: -10px
-      left: -10px
-
-    @media (max-width: $tablet)
-      font-size: .75em
-
-    .icon
-      position: absolute
-      bottom: -80px
-      left: 0
-      right: 0
-      display: block
-      margin: 0 auto
-      animation: pulse 2s infinite
 
 @keyframes pulse
   0%
