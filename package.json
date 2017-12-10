@@ -1,7 +1,7 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "debate3d-landing-page",
+  "version": "1.0.0",
+  "description": "Debate3D Landing Page",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "deploy-github": "bash deploy-github.sh",
     "deploy": "bash deploy.sh"
   },
-  "repository": "",
+  "repository": "https://github.com/debate3d/debate3d-landing-page.git",
   "author": "EmanuelG",
   "license": "MIT",
   "devDependencies": {
