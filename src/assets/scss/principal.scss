@@ -2,7 +2,7 @@
 @import "./reset.scss";
 @import "./common/menu.scss";
 @import "./common/footer.scss";
-@import "./pages/home.scss";
+@import "./pages/home/main.scss";
 
 body {
   background-color: #000;
@@ -11,90 +11,6 @@ body {
   background-size: cover;
   background-size: 100%;
   width: 100%;
-}
-
-h1 {
-  line-height: 1em;
-  font-size: 4em;
-  color: #f4511e;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-h2 {
-  line-height: 1.5em;
-  font-size: 1.5em;
-  color: #fff;
-  font-weight: bold;
-  text-align: left;
-}
-
-h3 {
-  color: #fff;
-  line-height: 1em;
-  font-size: 1.5em;
-  font-family: Calibri;
-}
-
-/* Segundo Quadro */
-#conceito {
-  background-image: url("../img/imparcialidade.jpg");
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
-  background-size: cover;
-}
-
-#conceito h1 {
-  padding-bottom: 10%;
-}
-
-blockquote {
-  padding: 5% 5% 0;
-  text-align: center;
-}
-/* Terceiro Quadro */
-#valores {
-  background-image: url("../img/transparente.jpg");
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
-  background-size: cover;
-}
-
-#valores .title {
-  font-size: 2em;
-  color: #f4511e;
-}
-
-#valores h1 {
-  font-size: 3em;
-  color: white;
-  padding: 1% 1% 0;
-}
-
-#valores h2 {
-  padding: 0 1% 1%;
-}
-/* Quarto Quadro */
-#metodo {
-  background-image: url("../img/interatividade.jpg");
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
-  background-size: cover;
-}
-
-#metodo h1 {
-  padding-bottom: 10%;
-}
-
-#metodo h2 {
-  padding-right: 10%;
-}
-
-#metodo h3 {
-  padding-top: 10%;
 }
 
 b {
@@ -122,12 +38,6 @@ p {
   color: #f4511e;
 }
 
-.navbar {
-  background: transparent;
-  position: relative;
-  font-family: Calibri, Open Sans, Helvetica, Arial, sans-serif;
-}
-
 .glyphicon {
   line-height: 1.5em;
 }
@@ -144,13 +54,6 @@ p {
 
 .cab {
   padding: 5%;
-}
-
-.logocentral {
-  max-width: 250px;
-  position: absolute;
-  top: 60px;
-  left: 20px;
 }
 
 @import "./empresa.scss";
