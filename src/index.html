@@ -10,32 +10,30 @@
 
 </head>
 
-<body>
+<body class="landing-main">
   <section class="hero is-fullheight">
     <div class="bordanav">
-      <nav class="navbar is-info">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item" href="/">
-              <img src="./assets/img/icon.png" alt="Logo">
+      <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <img src="./assets/img/icon.png" alt="Logo">
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="/" class="navbar-item"> Home </a>
+            <a href="/voce" class="navbar-item"> Você </a>
+            <a href="/empresa" class="navbar-item"> Empresa </a>
+            <a href="/eleicoes" class="navbar-item"> Eleições </a>
+            <a href="https://debate3d.com.br/app/"
+            class="navbar-item ">
+              Entrar
             </a>
-            <span class="navbar-burger burger" data-target="navbarMenu">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div id="navbarMenu" class="navbar-menu">
-            <div class="navbar-end">
-              <a href="/" class="navbar-item"> Home </a>
-              <a href="/voce" class="navbar-item"> Você </a>
-              <a href="/empresa" class="navbar-item"> Empresa </a>
-              <a href="/eleicoes" class="navbar-item"> Eleições </a>
-              <a href="https://debate3d.com.br/app/"
-              class="navbar-item ">
-                Entrar
-              </a>
-            </div>
           </div>
         </div>
       </nav>
@@ -43,24 +41,26 @@
 
     <div id="apresentacao">
       <div class="columns">
-        <div>
+        <figure class="image logocentral">
+          <img src="./assets/img/logo2.png" alt="" aria-hidden="true">
+        </figure>
 
-          <div class="column is-half">
-            <img class="logocentral" src="./assets/img/logo2.png" alt="debate3d">
-          </div>
+        <div>
 
           <div class="column">
             <h1 class="is-size-2-mobile">Ei, você! Quem tem a razão?</h1>
             <h2 class="is-size-5-mobile">Lidere enxergando diferentes opiniões e as melhores ideias.</h2>
           </div>
 
-          <figure>
-            <img id="seta" src="./assets/img/arrow.png" alt="seta">
+          <figure class="image is-64x64 arrow">
+            <img id="seta" src="./assets/img/arrow.png" alt="" aria-hidden="true">
           </figure>
         </div>
       </div>
     </div>
 
+  </section>
+  <section>
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-parent">
         <div id="conceito" class="tile is-child">
