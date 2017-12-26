@@ -1,0 +1,14 @@
+.landing-footer {
+  @extend .footer;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .social {
+    a {
+      display: inline-flex;
+      margin: 15px;
+    }
+  }
+}

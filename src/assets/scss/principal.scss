@@ -1,5 +1,6 @@
 @import "~bulma/bulma.sass";
 @import "./reset.scss";
+@import "./common/footer.scss";
 
 body {
   background-color: #000;
@@ -182,15 +183,6 @@ blockquote {
 b {
   color: #f4511e;
   text-transform: uppercase;
-}
-
-.footer {
-  background-color: #000;
-  padding: 2%;
-}
-
-.footer li {
-  list-style: none;
 }
 
 p {
