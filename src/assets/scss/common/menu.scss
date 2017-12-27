@@ -1,0 +1,15 @@
+/* menu */
+.bordanav {
+  z-index: 4;
+}
+
+.navbar-end {
+  .navbar-item:last-child {
+    background-color: #f4511e;
+    color: #FFF;
+
+    &:hover {
+      background-color: #f4511e !important; // TODO: retirar o !important
+    }
+  }
+}

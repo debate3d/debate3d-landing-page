@@ -15,106 +15,97 @@
 
 <body class="eleicoes-view">
 
-  <section class="hero container">
+  <section class="hero">
     <div class="bordanav">
-      <nav class="navbar is-info">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item" href="/">
-              <img src="../../assets/img/icon.png" alt="Logo">
+      <nav class="navbar is-dark">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <img src="../../assets/img/icon.png" alt="Logo">
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="/" class="navbar-item"> Home </a>
+            <a href="/voce" class="navbar-item"> Você </a>
+            <a href="/empresa" class="navbar-item"> Empresa </a>
+            <a href="/eleicoes" class="navbar-item"> Eleições </a>
+            <a href="https://debate3d.com.br/app/"
+            class="navbar-item ">
+              Entrar
             </a>
-            <span class="navbar-burger burger" data-target="navbarMenu">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div id="navbarMenu" class="navbar-menu">
-            <div class="navbar-end">
-              <a href="/" class="navbar-item"> Home </a>
-              <a href="/voce" class="navbar-item"> Você </a>
-              <a href="/empresa" class="navbar-item"> Empresa </a>
-              <a href="/eleicoes" class="navbar-item"> Eleições </a>
-              <a href="https://debate3d.com.br/app/"
-              class="navbar-item ">
-                Entrar
-              </a>
-            </div>
           </div>
         </div>
       </nav>
     </div>
-
-    <div class="hero-body container is-fullheight" id="cab">
-      <div class="hero-body">
-        <div id="topo">
-          <h1 class="is-size-3-mobile"><o>/</o><c>/</c>Eleições 2018</h1>
-
-          <h2 id="esp">sessão especial</h2>
-        </div>
-
-
-        <div class="tile is-ancestor">
-          <div class="tile is-parent is-vertical">
-            <article class="is-child notification has-text-centered is-info columns">
-              <figure class="is-hidden-mobile"><img src="../../assets/img/politica.png"></figure>
-              <div class="content column">
-                <h1 class="title is-size-5-touch">
-                  Imagine você avaliando o debate entre os candidatos da sua cidade.
-                </h1>
-
-                <p class="subtitulo is-size-5-touch">
-                  A primeira plataforma de debate das eleições 100% on-line.
-                </p>
-                <p class="subtitulo is-size-5-touch">
-                  Você vai ficar por dentro de todas as propostas e escolher o candidato que te representa.
-                </p>
-              </div>
-            </article>
-
-
-            <article class="tile is-child notification is-warning has-text-centered">
-
-              <h1 class="title is-size-5-touch">
-                Prepare-se para essa experiência.
-              </h1>
-
-              <p class="subtitulo is-size-5-touch">em breve novidades</p>
-
-            </article>
-
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 
-  <footer class="footer is-size-7-mobile">
-    <div class="container">
-      <div class="content has-text-centered">
+  <div class="container is-fullheight" id="cab">
+    <div id="topo">
+      <h1 class="is-size-3-mobile"><o>/</o><c>/</c>Eleições 2018</h1>
 
-        <div class="social">
-          <a href="https://www.facebook.com/debate3d">
-            <i class="fa fa-facebook-official fa-2x icon" aria-hidden="true"></i>
-          </a>
-          <a href="https://twitter.com/Debate_3D">
-            <i class="fa fa-twitter fa-2x icon" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.instagram.com/debate_3d/">
-            <i class="fa fa-instagram fa-2x icon" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.youtube.com/channel/UCmwc3dhqE9c4o3aaF6t2TBw">
-            <i class="fa fa-youtube-play fa-2x icon" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.linkedin.com/company/16230450/">
-            <i class="fa fa-linkedin-square fa-2x icon" aria-hidden="true"></i>
-          </a>
-          <a href="https://plus.google.com/104194392372967768540">
-            <i class="fa fa-google-plus fa-2x icon" aria-hidden="true"></i>
-          </a>
-        </div>
+      <h2 id="esp">sessão especial</h2>
+    </div>
 
+
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-info columns">
+          <figure class="is-hidden-mobile"><img src="../../assets/img/politica.png"></figure>
+          <div class="content column">
+            <h1 class="title is-size-5-touch">
+              Imagine você avaliando o debate entre os candidatos da sua cidade.
+            </h1>
+
+            <p class="subtitulo is-size-5-touch">
+              A primeira plataforma de debate das eleições 100% on-line.
+            </p>
+            <p class="subtitulo is-size-5-touch">
+              Você vai ficar por dentro de todas as propostas e escolher o candidato que te representa.
+            </p>
+          </div>
+        </article>
       </div>
+    </div>
+
+    <article class="tile is-ancestor has-text-centered">
+      <div class="tile is-parent">
+        <div class="tile is-child box is-warning">
+          <h1 class="title is-size-5-touch">
+            Prepare-se para essa experiência.
+          </h1>
+
+          <p class="subtitulo is-size-5-touch">em breve novidades</p>
+        </div>
+      </div>
+
+    </article>
+  </div>
+
+  <footer class="landing-footer">
+    <div class="social">
+      <a href="https://www.facebook.com/debate3d">
+        <i class="fa fa-facebook-official fa-2x icon" aria-hidden="true"></i>
+      </a>
+      <a href="https://twitter.com/Debate_3D">
+        <i class="fa fa-twitter fa-2x icon" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/debate_3d/">
+        <i class="fa fa-instagram fa-2x icon" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.youtube.com/channel/UCmwc3dhqE9c4o3aaF6t2TBw">
+        <i class="fa fa-youtube-play fa-2x icon" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.linkedin.com/company/16230450/">
+        <i class="fa fa-linkedin-square fa-2x icon" aria-hidden="true"></i>
+      </a>
+      <a href="https://plus.google.com/104194392372967768540">
+        <i class="fa fa-google-plus fa-2x icon" aria-hidden="true"></i>
+      </a>
     </div>
   </footer>
   <script src="https://use.fontawesome.com/46e8cbad0b.js"></script>

@@ -10,32 +10,30 @@
 
 </head>
 
-<body>
+<body class="landing-main">
   <section class="hero is-fullheight">
     <div class="bordanav">
-      <nav class="navbar is-info">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item" href="/">
-              <img src="./assets/img/icon.png" alt="Logo">
+      <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <img src="./assets/img/icon.png" alt="Logo">
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="/" class="navbar-item"> Home </a>
+            <a href="/voce" class="navbar-item"> Você </a>
+            <a href="/empresa" class="navbar-item"> Empresa </a>
+            <a href="/eleicoes" class="navbar-item"> Eleições </a>
+            <a href="https://debate3d.com.br/app/"
+            class="navbar-item ">
+              Entrar
             </a>
-            <span class="navbar-burger burger" data-target="navbarMenu">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div id="navbarMenu" class="navbar-menu">
-            <div class="navbar-end">
-              <a href="/" class="navbar-item"> Home </a>
-              <a href="/voce" class="navbar-item"> Você </a>
-              <a href="/empresa" class="navbar-item"> Empresa </a>
-              <a href="/eleicoes" class="navbar-item"> Eleições </a>
-              <a href="https://debate3d.com.br/app/"
-              class="navbar-item ">
-                Entrar
-              </a>
-            </div>
           </div>
         </div>
       </nav>
@@ -43,116 +41,99 @@
 
     <div id="apresentacao">
       <div class="columns">
-        <div>
+        <figure class="image logocentral">
+          <img src="./assets/img/logo2.png" alt="" aria-hidden="true">
+        </figure>
 
-          <div class="column is-half">
-            <img class="logocentral" src="./assets/img/logo2.png" alt="debate3d">
-          </div>
+        <div>
 
           <div class="column">
             <h1 class="is-size-2-mobile">Ei, você! Quem tem a razão?</h1>
             <h2 class="is-size-5-mobile">Lidere enxergando diferentes opiniões e as melhores ideias.</h2>
           </div>
 
-          <figure>
-            <img id="seta" src="./assets/img/arrow.png" alt="seta">
+          <figure class="image is-64x64 arrow">
+            <img id="seta" src="./assets/img/arrow.png" alt="" aria-hidden="true">
           </figure>
         </div>
       </div>
     </div>
 
-    <div class="tile is-ancestor">
-      <div class="tile is-vertical is-parent">
-        <div id="conceito" class="tile is-child">
-          <div class="columns borda">
-            <div class="column">
-              <h1 class="is-size-3-mobile">//Aprender</h1>
-              <h2>Acreditamos que o aprendizado é o único caminho para o <b>sucesso</b>. É nesse caminho que as ideias se encontram.</h2>
-              <br>
-              <blockquote cite="http://developer.mozilla.org">
-                <h3 style="font-style: italic">"Ver as coisas de forma coletiva nos faz enxergar através da visão de todos".<br><cite>Ray Dalio</cite></h3>
-              </blockquote>
-            </div>
+  </section>
 
-          </div>
-
-        </div>
-
-        <div id="valores" class="tile is-child">
-          <div class="columns borda">
-            <div>
-              <div class="column">
-                <h1 class="is-size-4-mobile">Desenvolvemos um caminho inovador para você debater suas ideias</h1>
-                <h2 class="is-size-6-mobile">Ele é...</h2>
-              </div>
-              <div class="tile is-ancestor is-clearfix">
-                <div class="tile is-parent columns">
-                  <article class="tile is-child column">
-                    <h1 class="title is-size-5-touch">//Imparcial</h1>
-                    <h2 class="is-size-6-touch">Nós somos responsaveis pela tecnologia. O debate é você quem faz.</h2>
-                  </article>
-
-                  <article class="tile is-child column">
-                    <h1 class="title is-size-5-touch">//Transparente</h1>
-                    <h2 class="is-size-6-touch">Todos se expressam livremente.  Saiba o quê as pessoas pensam e quantos concordam.</h2>
-                  </article>
-
-                  <article class="tile is-child column">
-                    <h1 class="title is-size-5-touch">//Interativo</h1>
-                    <h2 class="is-size-6-touch">A plataforma é gamificada e integrada as redes sociais.</h2>
-                  </article>
-
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-        <div id="metodo" class="tile is-child">
-          <div class="borda">
-            <h1 class="is-size-2-mobile">//Como funciona?</h1>
-            <div class="is-size-6-mobile">
-              <h2>O DEBATE<b style="color:#00AFEF">3</b><b style="color:#ED3237">D</b> é uma plataforma para todo tipo de debate.</h2>
-              <h2 style="color:#f4511e;">Moderador:</h2>
-              <h2>Responsaveis em criar os temas e mobilizar o debate. Podem se inscrever pessoas físicas ou jurídicas.</h2>
-              <h2 style="color:#f4511e;">Debatedor:</h2>
-              <h2>São os interessados em publicar seus posicionamentos, crenças e ideias. O debatedor é peça fundamental criando os CARDs com os argumentos.</h2>
-              <h3>Os CARDs ganham valores quando são avaliados com “likes” ou “deslikes”.<br>Assim as melhores ideias ganham destaque.</h3>
-            </div>
-
-          </div>
-        </div>
-      </div>
+  <section class="landing-section section-one">
+    <div class="container">
+      <h1 class="is-size-3-mobile">//Aprender</h1>
+      <h2>Acreditamos que o aprendizado é o único caminho para o <b>sucesso</b>. É nesse caminho que as ideias se encontram.</h2>
+      <br>
+      <blockquote cite="http://developer.mozilla.org">
+        <h3 style="font-style: italic">"Ver as coisas de forma coletiva nos faz enxergar através da visão de todos".<br><cite>Ray Dalio</cite></h3>
+      </blockquote>
     </div>
   </section>
-  <footer class="footer is-size-7-mobile">
+
+  <section class="landing-section section-two">
     <div class="container">
-      <div class="content has-text-centered">
 
-        <div class="social">
-          <a href="https://www.facebook.com/debate3d">
-            <i class="fa fa-facebook-official fa-2x icon" aria-hidden="true"></i>
-          </a>
-          <a href="https://twitter.com/Debate_3D">
-            <i class="fa fa-twitter fa-2x icon" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.instagram.com/debate_3d/">
-            <i class="fa fa-instagram fa-2x icon" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.youtube.com/channel/UCmwc3dhqE9c4o3aaF6t2TBw">
-            <i class="fa fa-youtube-play fa-2x icon" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.linkedin.com/company/16230450/">
-            <i class="fa fa-linkedin-square fa-2x icon" aria-hidden="true"></i>
-          </a>
-          <a href="https://plus.google.com/104194392372967768540">
-            <i class="fa fa-google-plus fa-2x icon" aria-hidden="true"></i>
-          </a>
-        </div>
-
+      <div class="landing-section-content">
+        <h1 class="is-size-4-mobile">Desenvolvemos um caminho inovador para você debater suas ideias</h1>
+        <h2 class="is-size-6-mobile">Ele é...</h2>
       </div>
+
+      <article class="landing-section-content">
+        <h1 class="title is-size-5-touch">//Imparcial</h1>
+        <h2 class="is-size-6-touch">Nós somos responsaveis pela tecnologia. O debate é você quem faz.</h2>
+      </article>
+
+      <article class="landing-section-content">
+        <h1 class="title is-size-5-touch">//Transparente</h1>
+        <h2 class="is-size-6-touch">Todos se expressam livremente.  Saiba o quê as pessoas pensam e quantos concordam.</h2>
+      </article>
+
+      <article class="landing-section-content">
+        <h1 class="title is-size-5-touch">//Interativo</h1>
+        <h2 class="is-size-6-touch">A plataforma é gamificada e integrada as redes sociais.</h2>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="landing-section section-three">
+    <div class="container">
+      <h1 class="is-size-2-mobile">//Como funciona?</h1>
+
+      <div class="is-size-6-mobile">
+        <h2>O DEBATE<b style="color:#00AFEF">3</b><b style="color:#ED3237">D</b> é uma plataforma para todo tipo de debate.</h2>
+        <h2 style="color:#f4511e;">Moderador:</h2>
+        <h2>Responsaveis em criar os temas e mobilizar o debate. Podem se inscrever pessoas físicas ou jurídicas.</h2>
+        <h2 style="color:#f4511e;">Debatedor:</h2>
+        <h2>São os interessados em publicar seus posicionamentos, crenças e ideias. O debatedor é peça fundamental criando os CARDs com os argumentos.</h2>
+        <h3>Os CARDs ganham valores quando são avaliados com “likes” ou “deslikes”.<br>Assim as melhores ideias ganham destaque.</h3>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="landing-footer">
+    <div class="social">
+      <a href="https://www.facebook.com/debate3d">
+        <i class="fa fa-facebook-official fa-2x icon" aria-hidden="true"></i>
+      </a>
+      <a href="https://twitter.com/Debate_3D">
+        <i class="fa fa-twitter fa-2x icon" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/debate_3d/">
+        <i class="fa fa-instagram fa-2x icon" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.youtube.com/channel/UCmwc3dhqE9c4o3aaF6t2TBw">
+        <i class="fa fa-youtube-play fa-2x icon" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.linkedin.com/company/16230450/">
+        <i class="fa fa-linkedin-square fa-2x icon" aria-hidden="true"></i>
+      </a>
+      <a href="https://plus.google.com/104194392372967768540">
+        <i class="fa fa-google-plus fa-2x icon" aria-hidden="true"></i>
+      </a>
     </div>
   </footer>
   <script src="https://use.fontawesome.com/46e8cbad0b.js"></script>
