@@ -13,6 +13,29 @@ body {
   width: 100%;
 }
 
+h1 {
+  line-height: 1em;
+  font-size: 4em;
+  color: #f4511e;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  line-height: 1.5em;
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: bold;
+  text-align: left;
+}
+
+h3 {
+  color: #fff;
+  line-height: 1em;
+  font-size: 1.5em;
+  font-family: Calibri;
+}
+
 b {
   color: #f4511e;
   text-transform: uppercase;
@@ -53,7 +76,7 @@ p {
 }
 
 .cab {
-  padding: 5%;
+  padding: 40px 0;
 }
 
 @import "./empresa.scss";
