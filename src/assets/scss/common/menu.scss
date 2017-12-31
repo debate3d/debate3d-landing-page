@@ -4,6 +4,11 @@
 }
 
 .navbar-end {
+  .navbar-item:nth-child(5) {
+    background-color: #292929;
+    color: #f5f5f5;
+  }
+
   .navbar-item:last-child {
     background-color: #f4511e;
     color: #FFF;
