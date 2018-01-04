@@ -29,14 +29,14 @@ cp -R ./dist/* ../debate3d-landing-page/dist/app
 # go to landing-page project
 cd ../debate3d-landing-page/
 
+echo "clean firebase/public folder"
+rm -rf ../debate3d-firebase/public/*
+
 # copy the all folder to public firebase project
 cp -R ./dist/* ../debate3d-firebase/public
 
 # go to firebase project
 cd ../debate3d-firebase/
-
-echo "clean firebase/public folder"
-rm -rf public/*
 
 echo ""
 echo "Deploy to Firebase"
