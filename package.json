@@ -1,6 +1,6 @@
 {
   "name": "debate3d-landing-page",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "Debate3D Landing Page",
   "main": "index.js",
   "scripts": {
