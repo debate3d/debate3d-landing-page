@@ -1,8 +1,4 @@
 @import "~bulma/bulma.sass";
-// @import "./reset.scss";
-// @import "./common/menu.scss";
-// @import "./common/footer.scss";
-// @import "./pages/home/main.scss";
 
 body {
   font-family: Raleway, Calibri, Open Sans, Helvetica, Arial, sans-serif;
@@ -10,54 +6,78 @@ body {
 	background: #EFEFEF;
 }
 
+.navbar-brand {
+  span.is-uppercase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.hero.section-one {
+  padding: 3rem 1.5rem;
+  min-height: 100vh;
+
+  @media screen and (min-width: 768px) {
+    max-height: 100vh;
+  }
+}
 
 .embed-responsive {
+  margin-top: 20px;
 	position:relative;
 	display:block;
-	height:0;
 	padding:0;
 	overflow:hidden;
 	text-align: center;
-}
 
-.embed-responsive .embed-responsive-item,.embed-responsive embed,.embed-responsive iframe,.embed-responsive object,.embed-responsive video {
-	position:absolute;
-	top:20%;
-	bottom:0;
-	left:13%;
-	width:75%;
-	height:75%;
-	border:0;
-}
-
-.embed-responsive-16by9 {
-	padding-bottom:56.25%;
-}
-
-.embed-responsive-4by3{
-	padding-bottom:75%;
+  iframe {
+    width: 100%;
+    min-height: 450px;
+  }
 }
 
 .moderador {
-	padding: 8%;
-}
+	padding: 30px 20px;
 
-article .title {
-	color: #F4511E;
-	padding-bottom: 6%;
-}
+  .title {
+    margin-bottom: 20px;
+  }
 
-article {
-	padding-left: 5%;
-}
+  .container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.moderador img {
-	padding-bottom: 15%;
-}
+    .container-description {
+      margin-bottom: 10px;
+    }
 
-.icon {
-	padding-right: 1.5em;
-	padding-left: 1.5em;
+    .title {
+    	color: #F4511E;
+    	padding-bottom: 6%;
+    }
+  }
+
+  .tile .is-child {
+    padding: 10px;
+
+    &.has-image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .icon {
+  	padding-right: 1.5em;
+  	padding-left: 1.5em;
+  }
+
+  img {
+  	padding-bottom: 10%;
+  }
 }
 
 .parallax {
@@ -67,4 +87,35 @@ article {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.landing-hero-phrase {
+  .title {
+    margin-bottom: 40px;
+  }
+}
+
+.landing-footer {
+  @extend .footer;
+  padding: 25px;
+
+  .landing-footer-links {
+    margin: 10px 0;
+  }
+
+  .landing-footer-social {
+    margin-bottom: 15px;
+
+    a.social-icons {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin: 15px;
+      text-align: center;
+
+      i {
+        display: block;
+      }
+    }
+  }
 }
