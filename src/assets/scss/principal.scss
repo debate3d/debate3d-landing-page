@@ -1,84 +1,70 @@
 @import "~bulma/bulma.sass";
-@import "./reset.scss";
-@import "./common/menu.scss";
-@import "./common/footer.scss";
-@import "./pages/home/main.scss";
+// @import "./reset.scss";
+// @import "./common/menu.scss";
+// @import "./common/footer.scss";
+// @import "./pages/home/main.scss";
 
 body {
-  background-color: #000;
   font-family: Raleway, Calibri, Open Sans, Helvetica, Arial, sans-serif;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: 100%;
   width: 100%;
+	background: #EFEFEF;
 }
 
-h1 {
-  line-height: 1em;
-  font-size: 4em;
-  color: #f4511e;
-  font-weight: bold;
-  text-transform: uppercase;
+
+.embed-responsive {
+	position:relative;
+	display:block;
+	height:0;
+	padding:0;
+	overflow:hidden;
+	text-align: center;
 }
 
-h2 {
-  line-height: 1.5em;
-  font-size: 1.5em;
-  color: #fff;
-  font-weight: bold;
-  text-align: left;
+.embed-responsive .embed-responsive-item,.embed-responsive embed,.embed-responsive iframe,.embed-responsive object,.embed-responsive video {
+	position:absolute;
+	top:20%;
+	bottom:0;
+	left:13%;
+	width:75%;
+	height:75%;
+	border:0;
 }
 
-h3 {
-  color: #fff;
-  line-height: 1em;
-  font-size: 1.5em;
-  font-family: Calibri;
+.embed-responsive-16by9 {
+	padding-bottom:56.25%;
 }
 
-b {
-  color: #f4511e;
-  text-transform: uppercase;
+.embed-responsive-4by3{
+	padding-bottom:75%;
 }
 
-p {
-  line-height: 1.5em;
+.moderador {
+	padding: 8%;
 }
 
-.borda {
-  background-color: rgba(0,0,0,0.5);
-  padding: 10%;
-  margin: 0;
-  position: relative;
+article .title {
+	color: #F4511E;
+	padding-bottom: 6%;
 }
 
-.columns:last-child {
-  margin: 0;
+article {
+	padding-left: 5%;
+}
+
+.moderador img {
+	padding-bottom: 15%;
 }
 
 .icon {
-  margin: 2% 2% 0;
-  color: #f4511e;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
 }
 
-.glyphicon {
-  line-height: 1.5em;
+.parallax {
+  background-image: url('../img/fundo.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.titulo {
-  color: black;
-  font-size: 2em;
-}
-
-.subtitulo {
-  color: black;
-  font-size: 1.25em;
-}
-
-.cab {
-  padding: 40px 0;
-}
-
-@import "./empresa.scss";
-@import "./voce.scss";
-@import "./eleicoes.scss";

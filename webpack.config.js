@@ -65,36 +65,6 @@ const config = {
         removeAttributeQuotes: true
       }
     }),
-    new HtmlWebpackPlugin({
-      filename: 'voce/index.html',
-      template: path.join(__dirname, 'src/html/voce/index.html'),
-      inject: true,
-      minify: {
-        removeComments: true,
-        collapseWhitespace: true,
-        removeAttributeQuotes: true
-      }
-    }),
-    new HtmlWebpackPlugin({
-      filename: 'eleicoes/index.html',
-      template: path.join(__dirname, 'src/html/eleicoes/index.html'),
-      inject: true,
-      minify: {
-        removeComments: true,
-        collapseWhitespace: true,
-        removeAttributeQuotes: true
-      }
-    }),
-    new HtmlWebpackPlugin({
-      filename: 'empresa/index.html',
-      template: path.join(__dirname, 'src/html/empresa/index.html'),
-      inject: true,
-      minify: {
-        removeComments: true,
-        collapseWhitespace: true,
-        removeAttributeQuotes: true
-      }
-    }),
     new OptimizeCSSPlugin({
       cssProcessorOptions: {
         safe: true
