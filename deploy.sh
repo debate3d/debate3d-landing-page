@@ -35,6 +35,9 @@ cp -R ./dist/* ../debate3d-firebase/public
 # go to firebase project
 cd ../debate3d-firebase/
 
+echo "clean firebase/public folder"
+rm -rf public/*
+
 echo ""
 echo "Deploy to Firebase"
 # deploy to firebase
