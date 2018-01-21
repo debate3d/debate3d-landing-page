@@ -1,19 +1,17 @@
 const path = require('path')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
-const CleanWebpackPlugin = require('clean-webpack-plugin')
+
+const resolve = dir => {
+  return path.join(__dirname, '..', dir)
+}
 
 const config = {
   entry: {
-    app: path.join(__dirname, 'src/main.js')
+    app: resolve('src/main.js')
   },
   output: {
     filename: '[name].bundle.js',
-    path: path.join(__dirname, 'dist')
-  },
-  devServer: {
-    contentBase: './dist'
+    path: resolve('dist')
   },
   module: {
     rules: [
@@ -49,27 +47,7 @@ const config = {
         loader: 'html-loader'
       }
     ]
-  },
-  plugins: [
-    new CleanWebpackPlugin(['dist']),
-    new ExtractTextPlugin({
-      filename: 'css/[contentHash].css'
-    }),
-    new HtmlWebpackPlugin({
-      template: path.join(__dirname, 'src/index.html'),
-      inject: true,
-      minify: {
-        removeComments: true,
-        collapseWhitespace: true,
-        removeAttributeQuotes: true
-      }
-    }),
-    new OptimizeCSSPlugin({
-      cssProcessorOptions: {
-        safe: true
-      }
-    })
-  ]
+  }
 }
 
 module.exports = config

@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --progress --watch",
-    "dev": "live-server dist",
-    "build": "webpack",
+    "start": "webpack --config ./build/webpack.dev.conf.js",
+    "dev": "live-server ./dist",
+    "build": "webpack --config ./build/webpack.build.conf.js",
     "clean": "rm -rf ./dist/",
     "deploy-github": "bash deploy-github.sh",
     "deploy": "bash deploy.sh"
@@ -38,6 +38,7 @@
     "run-sequence": "^2.1.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
+    "uglifyjs-webpack-plugin": "^1.1.6",
     "url-loader": "^0.6.2",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7"
