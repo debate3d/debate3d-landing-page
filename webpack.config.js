@@ -3,7 +3,6 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
-const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 
 const config = {
   entry: {
@@ -69,11 +68,6 @@ const config = {
       cssProcessorOptions: {
         safe: true
       }
-    }),
-    new BrowserSyncPlugin({
-      host: 'localhost',
-      port: 3000,
-      proxy: 'http://localhost:8080/'
     })
   ]
 }
