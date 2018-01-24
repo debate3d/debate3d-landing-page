@@ -1,2 +1,25 @@
-dist/
-node_modules/
+# dependencies
+node_modules
+
+# logs
+*.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+# Intellij idea
+.idea
+*iml
+
+# VSCode
+.vscode
+
+# Generated files
+static/manifest*.json
+static/sw.js
+static/workbox-sw*.js
+
+old-site/
