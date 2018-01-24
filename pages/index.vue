@@ -1,10 +1,12 @@
 <script>
   import AppHeader from '~/components/header'
+  import AppFooter from '~/components/footer'
 
   export default {
     name: 'index-page',
     components: {
-      AppHeader
+      AppHeader,
+      AppFooter
     }
   }
 </script>
@@ -44,7 +46,7 @@
 
             <div class="tile is-child">
               <h3 class="title is-uppercase"> //imparcial </h3>
-              <h3 class="subtitle">O <b class="is-uppercase">Debate<c style= color:#00AFEF>3</c><d style= color:#ED3237>D</d></b> é uma tecnologia que dá suporte aos diferentes grupos e movimentos políticos, educativos, religiosos e até esportivos. Aqui é você que promove o debate. Sendo um moderador você poderá criar temas <b>Públicos</b> ou <b>Privados</b> e mobilizar debatedores.</h3>
+              <h3 class="subtitle">O <span class="is-uppercase">Debate<span style= color:#00AFEF>3</span><span style= color:#ED3237>D</span></span> é uma tecnologia que dá suporte aos diferentes grupos e movimentos políticos, educativos, religiosos e até esportivos. Aqui é você que promove o debate. Sendo um moderador você poderá criar temas <span>Públicos</span> ou <span>Privados</span> e mobilizar debatedores.</h3>
 
               <div class="container-description">
                 <p>No menu principal clique na opção "Criar Temas".<br>
@@ -57,7 +59,7 @@
                 </p>
               </div>
 
-              <a class="button is-link" href="https://goo.gl/forms/cmCDRJQaUP7V5DjF3"><h1 class="is-uppercase"><b>Seja um moderador</b></h1></a>
+              <a class="button is-link" href="https://goo.gl/forms/cmCDRJQaUP7V5DjF3"><h1 class="is-uppercase"><span>Seja um moderador</span></h1></a>
             </div>
           </div>
         </div>
@@ -75,14 +77,14 @@
             <article class="tile is-child">
               <h3 class="title is-uppercase">//interativo</h3>
               <h3 class="subtitle">
-                Leve o <b class="is-uppercase">Debate<c style= color:#00AFEF>3</c><d style= color:#ED3237>D</d></b> para a sala de aula, eventos e reuniões. Organize a melhor experiênia de debate presencial com interatividade. Aulas mais dinâmicas e divertidas, reuniões mais democráticas, valorizando sempre o mérito das ideias. Aqui você terá resultados em tempo real de como os usuários se posicionam.
+                Leve o <span class="is-uppercase">Debate<span style= color:#00AFEF>3</span><span style= color:#ED3237>D</span></span> para a sala de aula, eventos e reuniões. Organize a melhor experiênia de debate presencial com interatividade. Aulas mais dinâmicas e divertidas, reuniões mais democráticas, valorizando sempre o mérito das ideias. Aqui você terá resultados em tempo real de como os usuários se posicionam.
     					</h3>
 
               <p class="container-description">Fale conosco:</p>
 
               <button class="button is-success">
                 <i class="fa fa-whatsapp"></i>
-                <span class="is-uppercase"><b>&nbsp; whatsapp: (21) 99225-1180</b></span>
+                <span class="is-uppercase"><span&nbsp; whatsapp: (21) 99225-1180</span</span>
               </button>
 
             </article>
@@ -102,7 +104,7 @@
             <div class="tile is-child">
               <h3 class="title is-uppercase">//organizado</h3>
               <h3 class="subtitle">
-                Você participa de debates nas redes sociais como facebook, twitter e whatsapp? Se você piscar o olho vai ter que ler centenas de comentários e provavelmente você não tem tempo para acompanhar. <br>O <b class="is-uppercase">Debate<c style= color:#00AFEF>3</c><d style= color:#ED3237>D</d></b> organiza isso pra você.  Convide seus amigos para o debate criando seus CARDs com os argumentos, conforme seus amigos reagem interagindo com os CARDs nós vamos organizando os melhores para você.
+                Você participa de debates nas redes sociais como facebook, twitter e whatsapp? Se você piscar o olho vai ter que ler centenas de comentários e provavelmente você não tem tempo para acompanhar. <br>O <span class="is-uppercase">Debate<span style= color:#00AFEF>3</span><span style= color:#ED3237>D</span></span> organiza isso pra você.  Convide seus amigos para o debate criando seus CARDs com os argumentos, conforme seus amigos reagem interagindo com os CARDs nós vamos organizando os melhores para você.
     				  </h3>
 
               <div class="container-description">
@@ -125,7 +127,7 @@
             </article>
             <article class="tile is-child">
               <h1 class="title is-uppercase">//integrado</h1>
-              <h1 class="subtitle">O <b class="is-uppercase">Debate<c style= color:#00AFEF>3</c><d style= color:#ED3237>D</d></b> é integrado ao <b>facebook</b>, <b>linkedin</b>, <b>twitter</b> e <b>whatsapp</b>. Você pode compartilhar os temas de debate nas suas redes sociais e também buscar apoio para seus argumentos. Também é possível incorporar vídeos do <b>youtube</b> no CARD para fortalecer seus argumentos.</h1><br>
+              <h1 class="subtitle">O <span class="is-uppercase">Debate<span style= color:#00AFEF>3</span><span style= color:#ED3237>D</span></span> é integrado ao <b>facebook</b>, <b>linkedin</b>, <b>twitter</b> e <b>whatsapp</b>. Você pode compartilhar os temas de debate nas suas redes sociais e também buscar apoio para seus argumentos. Também é possível incorporar vídeos do <b>youtube</b> no CARD para fortalecer seus argumentos.</h1><br>
               <p>
                 Atualize seu perfil informando suas redes sociais. Quanto mais você interage, mais pontos ganha e mais destaque no ranking. Aumente sua rede de amizades e promova mais seguidores.<br> Mobilize seus amigos!</p>
               <br>
