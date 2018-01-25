@@ -17,7 +17,7 @@
     <div class="hero-head">
       <header class="navbar">
 
-        <div class="navbar-brand">
+        <div class="navbar-brand" :class="{ 'is-active': isOpen }">
           <span class="navbar-item">
             <img src="~/assets/img/icon.png" alt="Logo">
           </span>
@@ -27,7 +27,7 @@
           <span
             class="navbar-burger burger"
             :class="{ 'is-active': isOpen }"
-            data-target="navbarMenuHeroC" @click="toggleMenu">
+            @click="toggleMenu">
             <span></span>
             <span></span>
             <span></span>
@@ -35,7 +35,6 @@
         </div>
 
         <div
-          id="navbarMenuHeroC"
           class="navbar-menu"
           :class="{ 'is-active': isOpen }">
           <div class="navbar-end">
@@ -69,3 +68,31 @@
     </div>
   </section>
 </template>
+
+<style lang="scss" scoped>
+  $color: rgba(#209cee, .5);
+  $transition: all 0.2s ease-in;
+
+  @media screen and (max-width: 1023px) {
+    .navbar-brand,
+    .navbar-tabs {
+      background-color: transparent;
+      transition: $transition;
+
+      &.is-active {
+        background-color: $color;
+      }
+    }
+
+    .hero.is-info .navbar-menu {
+      opacity: 0;
+      display: block;
+      transition: $transition;
+
+      &.is-active {
+        background-color: $color;
+        opacity: 1;
+      }
+    }
+  }
+</style>
