@@ -10,7 +10,7 @@
     <div class="landing-footer-links">
       <p class="subtitle"> Links importantes </p>
       <a href="mailto:debated3d@gmail.com" title="Envie-nos um email">debated3d@gmail.com</a><br>
-      <a href="#/app/terms-of-use">Termos de uso da plataforma</a>
+      <nuxt-link to="terms-of-use"> Termos de uso da plataforma </nuxt-link>
     </div>
 
     <div class="landing-footer-social">

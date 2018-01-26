@@ -6,8 +6,18 @@ body {
 	background: #EFEFEF;
 }
 
+.navbar {
+  background-color: transparent;
+
+  @media screen and (max-width: 1023px) {
+    .navbar-menu {
+      background-color: transparent;
+    }
+  }
+}
+
 .navbar-brand {
-  span.is-uppercase {
+  .is-uppercase {
     display: flex;
     justify-content: center;
     align-items: center;

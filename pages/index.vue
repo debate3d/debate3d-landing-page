@@ -84,7 +84,7 @@
 
               <button class="button is-success">
                 <i class="fa fa-whatsapp"></i>
-                <span class="is-uppercase"><span&nbsp; whatsapp: (21) 99225-1180</span</span>
+                <span class="is-uppercase"> <span> whatsapp: (21) 99225-1180 </span></span>
               </button>
 
             </article>
