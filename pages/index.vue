@@ -88,8 +88,12 @@
               <p class="container-description">Fale conosco:</p>
 
               <button class="button is-success">
-                <i class="fa fa-whatsapp"></i>
-                <span class="is-uppercase"> <span> whatsapp: (21) 99225-1180 </span></span>
+                <i class="fa fa-whatsapp" style="padding-right: 5px;"></i>
+                <span class="is-uppercase">
+                  <a href="https://api.whatsapp.com/send?phone=21992251180" style="color: white;">
+                    whatsapp: (21) 99225-1180
+                  </a>
+                </span>
               </button>
 
             </article>
@@ -118,7 +122,7 @@
                 </p>
               </div>
 
-              <a class="button is-link" href="https://debate3d.com.br/app/#/auth/register"><h1 class="is-uppercase"><b>Seja um debatedor</b></h1></a>
+              <a class="button is-link" href="https://app.debate3d.com.br/app/#/auth/register"><h1 class="is-uppercase"><b>Seja um debatedor</b></h1></a>
             </div>
           </div>
         </div>
@@ -156,7 +160,7 @@
   				  Viva essa experiência!
   			  </h3>
 
-          <a class="button is-info is-large is-inverted is-outlined" href="https://debate3d.com.br/app/#/app/dashboard">Explore</a>
+          <a class="button is-info is-large is-inverted is-outlined" href="https://app.debate3d.com.br/app/#/app/dashboard">Explore</a>
         </div>
       </div>
     </section>

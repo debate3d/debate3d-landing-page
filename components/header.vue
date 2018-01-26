@@ -24,7 +24,7 @@
   				Crie seu melhor argumento
   			</h2>
 
-        <a class="button is-link is-large" href="https://debate3d.com.br/app/#/app/dashboard">Explore</a>
+        <a class="button is-link is-large" href="https://app.debate3d.com.br/app/#/app/dashboard">Explore</a>
       </div>
     </div>
   </section>

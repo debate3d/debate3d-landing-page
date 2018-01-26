@@ -39,12 +39,12 @@
       :class="{ 'is-active': isOpen }">
       <div class="navbar-end">
         <span class="navbar-item">
-          <a href="https://debate3d.com.br/app/#/auth/register">
+          <a href="https://app.debate3d.com.br/#/auth/register">
             Cadastre-se
           </a>
         </span>
         <span class="navbar-item">
-          <a class="button is-info" :class="{ 'is-inverted': isOpen }" href="https://debate3d.com.br/app/#/auth/login">
+          <a class="button is-info" :class="{ 'is-inverted': isOpen }" href="https://app.debate3d.com.br/#/auth/login">
             Login
           </a>
         </span>

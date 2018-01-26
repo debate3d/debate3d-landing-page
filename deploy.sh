@@ -1,33 +1,8 @@
 #!/bin/bash
 
-echo "Clear dist folder"
-# clear dist folder
-yarn run clean
-
-echo ""
 echo "Build landing page"
 # build the project
-yarn run build
-
-# deploy project
-cd dist
-
-# create app folder on landing dist folder
-mkdir app
-
-# go to debate3d-site project
-cd ../../debate3d-site/
-
-echo ""
-echo "Build the platform"
-# build the platform
-yarn run deploy-site
-
-# copy the all dist folder to app folder on landing-page project
-cp -R ./dist/* ../debate3d-landing-page/dist/app
-
-# go to landing-page project
-cd ../debate3d-landing-page/
+yarn run generate
 
 echo "clean firebase/public folder"
 rm -rf ../debate3d-firebase/public/*
