@@ -25,7 +25,7 @@
     <p>
       Desenvolvido por
       <a href="http://emanuelgdev.com.br" title="Ir para o site de Emanuel G Web Developer">
-        EmanuelGDev
+        Emanuel Gonçalves
       </a>
       e mantido por <a href="https://www.facebook.com/AlanCostaSM" title="Conheça o perfil de Alan Costa, mantenedor da plataforma Debate3D">
         Alan Costa
