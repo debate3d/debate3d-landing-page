@@ -7,12 +7,10 @@ body {
 }
 
 .navbar {
-  background-color: transparent;
+  background-color: transparent !important;
 
   @media screen and (max-width: 1023px) {
-    .navbar-menu {
-      background-color: transparent;
-    }
+    background-color: #209cee !important;
   }
 }
 

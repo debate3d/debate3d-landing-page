@@ -44,7 +44,7 @@
           </a>
         </span>
         <span class="navbar-item">
-          <a class="button is-info" href="https://debate3d.com.br/app/#/auth/login">
+          <a class="button is-info" :class="{ 'is-inverted': isOpen }" href="https://debate3d.com.br/app/#/auth/login">
             Login
           </a>
         </span>

@@ -23,7 +23,10 @@ module.exports = {
   ** Customize app manifest
   */
   manifest: {
-    theme_color: '#209cee'
+    background_color: '#209cee',
+    short_name: 'Debate3D',
+    theme_color: '#209cee',
+    name: 'Debate3D - Uma nova experiência de debate'
   },
   /*
   ** Modules
