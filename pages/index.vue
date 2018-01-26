@@ -7,6 +7,11 @@
     components: {
       AppHeader,
       AppFooter
+    },
+    head () {
+      return {
+        title: 'Conheça o Debate3D - Uma nova experiênia de debate'
+      }
     }
   }
 </script>

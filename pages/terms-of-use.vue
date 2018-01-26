@@ -7,6 +7,14 @@
     components: {
       AppMenu,
       AppFooter
+    },
+    head () {
+      return {
+        title: 'Termos de Uso da plataforma Debate3D',
+        meta: [
+          { hid: 'description', name: 'description', content: 'Conheça os termos de uso da plataforma' }
+        ]
+      }
     }
   }
 </script>
