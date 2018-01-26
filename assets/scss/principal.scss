@@ -1,13 +1,21 @@
-@import "~bulma/bulma.sass";
+@import "../../node_modules/bulma/bulma.sass";
 
 body {
-  font-family: Raleway, Calibri, Open Sans, Helvetica, Arial, sans-serif;
+  font-family: Nunito, Raleway, Calibri, Open Sans, Helvetica, Arial, sans-serif;
   width: 100%;
 	background: #EFEFEF;
 }
 
+.navbar {
+  background-color: transparent !important;
+
+  @media screen and (max-width: 1023px) {
+    background-color: #209cee !important;
+  }
+}
+
 .navbar-brand {
-  span.is-uppercase {
+  .is-uppercase {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +89,7 @@ body {
 }
 
 .parallax {
-  background-image: url('../img/fundo.jpg');
+  background-image: url('~/assets/img/fundo.jpg');
   height: 100%;
   background-attachment: fixed;
   background-position: center;
