@@ -9,12 +9,16 @@ module.exports = {
   */
   head: {
     script: [
-      { src: 'https://use.fontawesome.com/46e8cbad0b.js' }
+      { src: 'https://use.fontawesome.com/46e8cbad0b.js' },
+      { src: 'https://www.googletagmanager.com/gtag/js?id=UA-97620715-1' }
     ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Nunito' }
     ]
   },
+  plugins: [
+    { src: '~/plugins/gtag', ssr: false }
+  ],
   /*
   ** Customize the progress-bar color
   */
