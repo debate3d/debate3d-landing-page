@@ -122,7 +122,7 @@
                 </p>
               </div>
 
-              <a class="button is-link" href="https://app.debate3d.com.br/app/#/auth/register"><h1 class="is-uppercase"><b>Seja um debatedor</b></h1></a>
+              <a class="button is-link" href="https://app.debate3d.com.br/#/auth/register"><h1 class="is-uppercase"><b>Seja um debatedor</b></h1></a>
             </div>
           </div>
         </div>
@@ -160,7 +160,7 @@
   				  Viva essa experiência!
   			  </h3>
 
-          <a class="button is-info is-large is-inverted is-outlined" href="https://app.debate3d.com.br/app/#/app/dashboard">Explore</a>
+          <a class="button is-info is-large is-inverted is-outlined" href="https://app.debate3d.com.br/#/dashboard">Explore</a>
         </div>
       </div>
     </section>
