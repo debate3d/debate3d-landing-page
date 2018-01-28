@@ -20,7 +20,7 @@
   <div>
     <app-header />
 
-    <section class="hero is-info section-one">
+    <section class="hero is-link section-one">
       <div class="container has-text-centered" id="fraseone">
         <div class="has-text-centered">
           <h2 class="title is-size-4-mobile">
@@ -147,21 +147,9 @@
       </article>
     </section>
 
-    <section class="hero is-medium is-info landing-hero-phrase">
+    <section class="hero is-fullheight is-large landing-hero-phrase">
       <div class="hero-body">
-        <div class="container has-text-centered">
-          <h2 class="title" style="font-style: italic">
-  					&ldquo; Ver as coisas de forma coletiva nos faz enxergar através da visão de todos &rdquo;
-            <br>
-            Ray Dalio
-  			  </h2>
-
-          <h3 class="subtitle has-text-weight-bold">
-  				  Viva essa experiência!
-  			  </h3>
-
-          <a class="button is-info is-large is-inverted is-outlined" href="https://app.debate3d.com.br/#/dashboard">Explore</a>
-        </div>
+        <a class="button is-link is-large" href="https://app.debate3d.com.br/#/dashboard">Explore</a>
       </div>
     </section>
 

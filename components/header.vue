@@ -10,7 +10,7 @@
 </script>
 
 <template>
-  <section class="hero is-info is-fullheight parallax">
+  <section class="hero is-link is-fullheight parallax">
     <div class="hero-head">
       <app-menu />
     </div>
@@ -31,7 +31,7 @@
 </template>
 
 <style lang="scss" scoped>
-  $color: rgba(#209cee, .5);
+  $color: #3273dc;
   $transition: all 0.2s ease-in;
 
   @media screen and (max-width: 1023px) {

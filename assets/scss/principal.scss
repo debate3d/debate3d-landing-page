@@ -10,7 +10,7 @@ body {
   background-color: transparent !important;
 
   @media screen and (max-width: 1023px) {
-    background-color: #209cee !important;
+    background-color: #3273dc !important;
   }
 }
 
@@ -98,8 +98,18 @@ body {
 }
 
 .landing-hero-phrase {
-  .title {
-    margin-bottom: 40px;
+  position: relative;
+  background-image: url('~/assets/img/ray-dalio-phrase.png');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 10px;
   }
 }
 
