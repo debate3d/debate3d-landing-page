@@ -5,6 +5,9 @@ Todas as anotações do projeto estarão neste documento
 O formato é baseado em [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 e esse projeto segue [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [3.1.0] - 2018-01-28
+- [ update ] Atualizado links para a plataforma
+
 ## [3.0.0] - 2018-01-26
 - [ new ] suporte a PWA com Nuxt.js
 
